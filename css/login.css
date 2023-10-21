@@ -12,27 +12,24 @@ body {
 
 .login-container {
   margin: 0 auto;
-  margin-top: 30vh; 
+  margin-top: 30vh;
   max-width: fit-content;
   background-color: #ffffff;
   border-radius: 5px;
   padding: 3vh 2vw;
-  }
+}
 
-
-  
 label {
   display: block;
-  margin:4%;
+  margin: 4%;
   font-weight: 600;
 }
 input {
   height: 4vh;
   width: 95%;
   border: none;
-  border-radius:  5px;
+  border-radius: 5px;
   box-shadow: 0 0 5px #474545;
-
 }
 
 button {
@@ -43,7 +40,6 @@ button {
   border-radius: 5px;
   margin: 7%;
   border: none;
-  
 }
 
 button:hover {
