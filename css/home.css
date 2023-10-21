@@ -1,0 +1,96 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  margin: 0;
+  background-color: #eae8d6;
+}
+
+header {
+  background-image: url(/img/comida.jpg);
+  text-align: center;
+  padding: 4%;
+}
+
+#header-div {
+  margin: 0 auto;
+  background-color: #b64e5392;
+  color: #ffffff;
+  width: fit-content;
+  padding: 1% 1% 2% 1%;
+}
+
+#title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 130%;
+  margin: 0;
+}
+
+nav {
+  background-color: #991519;
+  height: 2vh;
+}
+
+#description {
+  justify-content: right;
+  margin: 0 5%;
+}
+
+h3 {
+  color: #991519;
+  text-align: center;
+}
+
+#description span {
+  color: #991519;
+  font-weight: bold;
+}
+
+#description ul li {
+  list-style-image: url(/img/foodicon.png);
+  line-height: 300%;
+}
+
+#takeaway_container img {
+  padding: 1%;
+}
+
+#takeaway_container a {
+  text-decoration: none;
+  color: #991519;
+  font-size: 120%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  padding-bottom: 1%;
+}
+
+footer {
+  text-align: center;
+  background-color: #991519;
+  color: #ffffff;
+  margin: 0;
+  padding: 0.7%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background-image: url(/img/header_media.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    background-image: url(/img/header_peque.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
