@@ -1,0 +1,44 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  color: #474545;
+  background: url(/img/background_login.jpg);
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.login-container {
+  margin: 0 auto;
+  margin-top: 15vh;
+  max-width: fit-content;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5vh 3vw;
+  }
+
+
+  
+label {
+  display: block;
+  margin:4%;
+  font-weight: 600;
+}
+input {
+  height: 4vh;
+  width: 95%;
+  border: none;
+  border-radius:  5px;
+  box-shadow: 0 0 5px #474545;
+  margin-bottom: 3vh;
+
+}
+
+button {
+  background-color: #474545;
+  color: #ffffff;
+  padding: 3vw, 1vh;
+  margin: 2vh;
+
+}
