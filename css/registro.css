@@ -1,0 +1,51 @@
+body {
+  background-image: url(/img/background_register.jpg);
+  background-size: 225%;
+  margin: 0;
+  align-content: center;
+}
+
+#contenedor {
+  margin: 15% auto;
+  background-color: #b68b8c;
+  padding: 1% 1%;
+  width: 60%;
+  border-radius: 15px;
+}
+
+h1,
+h2 {
+  margin: 1% 0;
+}
+
+.container_section,
+#direccion_container,
+.container_section {
+  display: grid;
+}
+
+.container_section {
+  grid-template-columns: repeat(2, 1fr);
+}
+#direccion_container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+input,
+select {
+  background-color: #d8d2c9;
+  color: #686767c2;
+  border: none;
+  border-radius: 1px;
+  width: 92%;
+  padding: 1.5%;
+  margin: 3%;
+}
+
+button {
+  margin: 2.5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5% 10%;
+  border-radius: 2px;
+}
