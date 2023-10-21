@@ -1,21 +1,26 @@
 body {
   background-image: url(/img/background_register.jpg);
-  background-size: 225%;
   margin: 0;
   align-content: center;
+  background-size: 210%;
 }
 
 #contenedor {
-  margin: 15% auto;
+  margin: 15vh auto;
   background-color: #b68b8c;
-  padding: 1% 1%;
-  width: 60%;
+  padding: 1%;
+  width: 40%;
   border-radius: 15px;
 }
 
-h1,
+h1 {
+  font-size: 150%;
+  margin: 0;
+}
+
 h2 {
-  margin: 1% 0;
+  margin: 3% 0 0 0;
+  font-size: 100%;
 }
 
 .container_section,
@@ -38,14 +43,24 @@ select {
   border: none;
   border-radius: 1px;
   width: 92%;
-  padding: 1.5%;
+  padding: 2%;
   margin: 3%;
+  font-size: 60%;
+}
+
+select {
+  color: #000000; /* Se aplica éste porque está debajo*/
 }
 
 button {
-  margin: 2.5%;
   background-color: #000000;
   color: #ffffff;
   padding: 1.5% 10%;
+  border: none;
   border-radius: 2px;
+  margin: 2% 0 0 1%;
 }
+
+button:hover {
+  background-color: #686767c2;
+} /*no sé si había que poner hover*/
