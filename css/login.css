@@ -2,8 +2,9 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
     Verdana, sans-serif;
   color: #474545;
-  background: url(/img/background_login.jpg);
+  background-image: url(/img/background_login.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   display: grid;
   align-items: center;
@@ -11,11 +12,11 @@ body {
 
 .login-container {
   margin: 0 auto;
-  margin-top: 15vh;
+  margin-top: 30vh; 
   max-width: fit-content;
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 5vh 3vw;
+  padding: 3vh 2vw;
   }
 
 
@@ -31,14 +32,28 @@ input {
   border: none;
   border-radius:  5px;
   box-shadow: 0 0 5px #474545;
-  margin-bottom: 3vh;
 
 }
 
 button {
-  background-color: #474545;
+  background-color: #1b1b1b;
   color: #ffffff;
-  padding: 3vw, 1vh;
+  padding: 3% 18%;
   margin: 2vh;
+  border-radius: 5px;
+  margin: 7%;
+  border: none;
+  
+}
 
+button:hover {
+  background-color: #474545;
+}
+
+#register p {
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
 }
