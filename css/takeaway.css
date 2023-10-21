@@ -47,15 +47,14 @@ body > h2 {
 }
 
 .promociones {
-  padding: 1%;
   margin: 1% auto;
   background-color: #ffffff;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
-  
+  box-shadow: 0 0 5px #000000a9;
+  border-radius: 2px;
 }
 
 .promocion {
@@ -64,29 +63,31 @@ body > h2 {
   width: 90%;
   margin: 5%;
   padding: 4% 1%;
-  }
+  box-shadow: 0 0 5px #000000a9;
+}
 
-  .promocion h3 {
-    margin: 0;
-    font-size: 80%;
-  }
+.promocion h3 {
+  margin: 0;
+  font-size: 80%;
+}
 
-  .promocion p {
-    margin: 0;
-    font-size: 50%;
-  }
-  
-  .promocion img {
-    width: 50%;
-    margin: 0;
-  }
+.promocion p {
+  margin: 0;
+  font-size: 60%;
+  font-weight: bold;
+  text-align: left;
+  padding: 3%;
+}
 
+.promocion img {
+  width: 50%;
+  margin: 0;
+}
 
-  .promocion img:hover {
-    resize: 300%;
-    
-  }
-
+.promocion img:hover {
+  transform: scale(1.15);
+  transition: transform 0.4s;
+}
 
 footer {
   text-align: center;
@@ -102,7 +103,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   .promociones {
     grid-template-columns: 1fr 1fr;
   }
@@ -115,6 +116,6 @@ footer {
     background-repeat: no-repeat;
   }
   .promociones {
-    grid-template-columns: 1fr 
+    grid-template-columns: 1fr;
   }
 }
