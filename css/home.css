@@ -68,7 +68,7 @@ h3 {
   align-items: center;
   position: relative;
   top: 10%;
-  padding-bottom: 1%;
+  padding-bottom: 1%; /*Creo que debería haber una forma más fácil para hacer esto, pero no se me ocurre*/
 }
 
 footer {
