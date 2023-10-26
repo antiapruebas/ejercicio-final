@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/background_register.jpg);
+  background-image: url(../img/background_register.jpg);
   margin: 0;
   align-content: center;
   background-size: 210%;
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   margin: 3% 0 0 0;
-  font-size: 100%;
+  font-size: 120%;
 }
 
 .container_section,
@@ -45,7 +45,7 @@ select {
   width: 92%;
   padding: 2%;
   margin: 3%;
-  font-size: 60%;
+  font-size: 80%;
 }
 
 select {

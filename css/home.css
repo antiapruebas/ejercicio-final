@@ -50,7 +50,7 @@ h3 {
 }
 
 #description ul li {
-  list-style-image: url(/img/foodicon.png);
+  list-style-image: url(../img/foodicon.png);
   line-height: 300%;
 }
 
@@ -81,7 +81,7 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   header {
-    background-image: url(/img/header_media.jpg);
+    background-image: url(../img/header_media.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -89,7 +89,7 @@ footer {
 
 @media screen and (max-width: 767px) {
   header {
-    background-image: url(/img/header_peque.png);
+    background-image: url(../img/header_peque.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
